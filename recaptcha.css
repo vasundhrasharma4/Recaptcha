@@ -1,0 +1,39 @@
+#form{
+    text-align: center;
+    border: 1px solid black;
+    width: 500px;
+    margin :auto;
+
+}
+.submit
+{
+background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+.submit:hover{
+    background-color: #a04549;
+}
+
+input {
+   
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 30px;
+   
+  }
+  .g-recaptcha
+  {
+    margin-left: 80px;
+    margin-bottom: 16px;
+  }
+
+  
