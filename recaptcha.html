@@ -22,6 +22,19 @@
             <button class="submit">Submit</button>
         </form>
     </body>
+
+     <script>
+      function validateForm() {
+  // Check if reCAPTCHA is selected
+  var response = grecaptcha.getResponse();
+  if (response.length === 0) {
+    // If checkbox is not selected, show an error message
+    alert("Please checkbox if you are not a robot.");
+    return false; // Prevent form submission
+  }  
+}
+
+    </script>
     <!--
 
         v3
